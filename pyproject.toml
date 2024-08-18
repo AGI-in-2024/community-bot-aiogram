@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "community-bot-aiogram"
+version = "0.1.0"
+description = ""
+authors = ["_sergei <c4s23@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.12.0"
+uvloop = "^0.20.0"
+structlog = "^24.4.0"
+pydantic-settings = "^2.4.0"
+msgspec = "^0.18.6"
+sqlmodel = "^0.0.21"
+asyncpg = "^0.29.0"
+alembic = "^1.13.2"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.32"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
